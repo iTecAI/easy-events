@@ -1,0 +1,27 @@
+{
+  "name": "easy-events",
+  "version": "1.0.0",
+  "description": "React Hooks for interacting with EventSource",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "source": "src/index.ts",
+  "repository": "https://github.com/iTecAI/easy-events",
+  "author": "Dax Harris",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "microbundle": "^0.15.1",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  }
+}
