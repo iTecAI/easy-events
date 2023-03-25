@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyevents"
+version = "1.0.0"
+description = "ASGI Starlette Wrapper over sse-starlette"
+readme = "README.md"
+authors = [{ name = "Dax Harris", email = "etagenda2@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["server sent events", "asgi", "starlette"]
+dependencies = [
+    "sse-starlette",
+    "httpagentparser",
+    "starlette"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/iTecAI/easy-events"
